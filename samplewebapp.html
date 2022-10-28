@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/png" href="assets/joanna.png"/>
+		<title>Joanna OKR Project
+		</title>
+		<style>
+			.header {
+				padding: 20px;
+				text-align: center;
+				background: #03b2c9;
+				color: white;
+				font-size: 20px;
+				font-family: Sailec, sans-serif;
+			}
+			p {
+				font-family: Sailec, sans-serif;
+				margin-left: 200px;
+				margin-right:  200px;
+			}
+			h3 {
+				font-family: Sailec, sans-serif;
+				margin-left: 200px;
+				margin-right:  200px;
+			}
+			hr {
+				margin-left: 200px;
+				margin-right:  200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<p>
+				<h1>Joanna's OKR Project</h1>
+				Braze Web SDK integration with mParticle
+			</p>
+		</div>
+		<div class="body">
+			<br/ >
+			<center>
+				<a style="font-family:Sailec" href="https://internal-dashboard-03.braze.com/dashboard/app_usage/600284e65602903fd7d253d5?locale=en" target="_blank">Joanna's Dashboard</a>
+			</center>
+			<br />
+			<div id="user">
+				<p><h3>Session Settings</h3></p>
+				<p><label>User ID:</label></p>
+				<p>
+					<input type="text" id="change_userid"/>
+					<button id="submit_userid">Change User</button>
+				</p>
+			</div>
+			<br />
+			<hr>
+			<div id="customEventLog">
+				<p><h3>Attributes & Events</h3></p>
+				<p><label>Custom Event: </label></p>
+				<p>
+					<input type="text" id="add_customevent" placeholder="Custom Event Name" />
+					<button id="submit_customevent">Add Custom Event</button>
+				</p>
+				<p><label>Custom Attributes: </label></p>
+				<p>
+					<input type="text" id="custom_attribute_name" placeholder="Custom Attribute Name" />
+					<input type="text" id="custom_attribute_value" placeholder="Custom Attribute Value" />
+					<button id="submit_customattribute">Add Custom Attribute</button>
+				</p>
+			</div>
+			<br />
+			<script type="text/javascript" src="app.js"></script>
+		</div>
+	</body>
+	<footer>
+	</footer>
+</html>
